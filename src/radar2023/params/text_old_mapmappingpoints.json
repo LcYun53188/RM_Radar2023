@@ -1,0 +1,52 @@
+{
+    "Points": [
+          {
+                "name": "red_base", 
+                "x": 1.760,
+                "y": -7.5,
+                "z": 1.243
+          },
+          {
+                "name": "blue_outpost",
+                "x": 16.816,
+                "y": -2.421,
+                "z": 1.586
+          },
+          {
+                "name": "red_outpost",
+                "x": 11.184,
+                "y": -12.579,
+                "z": 1.586
+          },
+          {
+                "name": "blue_base",
+                "x": 26.24,
+                "y": -7.5,
+                "z": 1.243
+          },
+          {
+                "name": "r_lt",
+                "x": 8.668,
+                "y": -5.753,
+                "z": 0.42
+          },
+          {
+                "name": "b_lt",
+                "x": 19.332,
+                "y": -9.247,
+                "z": 0.42
+          }
+    ],
+    "when_enemy_red": [
+          "red_base",
+          "blue_outpost",
+          "b_lt",
+          "red_outpost"
+    ],
+    "when_enemy_blue": [
+          "blue_base",
+          "red_outpost",
+          "r_lt",
+          "blue_outpost"
+    ]
+}

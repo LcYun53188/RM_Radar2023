@@ -1,64 +1,52 @@
 {
       "Points": [
             {
-                  "name": "red_base",
-                  "x": 1.760,
-                  "y": -7.5,
-                  "z": 1.118
-            },
-            {
-                  "name": "blue_outpost",
-                  "x": 16.776,
-                  "y": -2.435,
-                  "z": 1.581
-            },
-            {
-                  "name": "red_outpost",
-                  "x": 11.176,
-                  "y": -12.565,
-                  "z": 1.581
+                  "name": "red_base", 
+                  "x":3.615,
+                  "y":-11.034,
+                  "z":0.74
             },
             {
                   "name": "blue_base",
-                  "x": 26.162,
-                  "y": -7.5,
-                  "z": 1.581
+                  "x": 24.385,
+                  "y": -3.966,
+                  "z": 0.74
             },
             {
-                  "name": "r_rt",
-                  "x": 8.805,
-                  "y": -6.388,
-                  "z": 0.615
+                  "name": "red_outpost",
+                  "x": 10.909,
+                  "y": -11.357,
+                  "z": 1.875
             },
             {
-                  "name": "r_lt",
-                  "x": 8.805,
-                  "y": -5.728,
-                  "z": 0.615
+                  "name": "blue_outpost",
+                  "x": 17.091,
+                  "y": -3.643,
+                  "z": 1.875
             },
             {
-                  "name": "b_rt",
-                  "x": 19.200,
-                  "y": -8.612,
-                  "z": 0.615
+                  "name": "red_angle",
+                  "x": 9.535,
+                  "y": -6.078,
+                  "z": 0.2
             },
             {
-                  "name": "b_lt",
-                  "x": 19.200,
-                  "y": -9.272,
-                  "z": 0.615
+                  "name": "blue_angle",
+                  "x": 18.465,
+                  "y": -8.922,
+                  "z": 0.2
             }
       ],
       "when_enemy_red": [
+            "red_outpost",
             "red_base",
             "blue_outpost",
-            "b_rt",
-            "b_lt"
+            "blue_angle"
       ],
       "when_enemy_blue": [
+            "blue_outpost",
             "blue_base",
             "red_outpost",
-            "r_rt",
-            "r_lt"
+            "red_angle"
       ]
 }
