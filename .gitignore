@@ -9,8 +9,8 @@ src/radar2023/ExpResultDir/ExpData*
 src/radar2023/models/*.onnx
 src/radar2023/models/*.engine
 src/radar2023/models/*.pt
-src/radar2023/params/*.yaml
-src/radar2023/params/*.Config
+# src/radar2023/params/*.yaml
+# src/radar2023/params/*.Config
 src/radar2023/resources/*.txt
 src/radar2023/resources/*.mp4
 src/radar2023/resources/*.mkv
