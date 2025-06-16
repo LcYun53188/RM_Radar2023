@@ -50,14 +50,14 @@ catkin_package(CATKIN_DEPENDS
   image_transport
 	)
 # cuda
-include_directories(/user/local/cuda/include)
-link_directories(/user/local/cuda/lib)
+include_directories(/user/local/cuda-11.8/include)
+link_directories(/user/local/cuda-11.8/lib)
 # cudnn
-include_directories(/user/local/cuda/cudnn/v8.0.4/include)
-link_directories(/user/local/cuda/cudnn/v8.0.4/lib64)
+include_directories(/user/local/cuda-11.8/include)
+link_directories(/user/local/cuda-11.8/lib64)
 # Tensorrt
-include_directories(/usr/local/TensorRT/include)
-link_directories(/usr/local/TensorRT/lib)
+include_directories(/opt/intel/oneapi/2024.2/include)
+link_directories(/opt/intel/oneapi/2024.2/lib)
 # mkl
 include_directories(${MKLROOT}/include)
 link_directories(${MKLROOT}/lib/intel64)

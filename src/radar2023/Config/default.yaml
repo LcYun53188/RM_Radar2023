@@ -1,6 +1,6 @@
 /radar2023:
   EnemyType: 0 # 0 RED 1 BLUE
-  AuthPassword: "momoko11" # 用户密码，用于串口权限
+  AuthPassword: "0" # 用户密码，用于串口权限
   CameraConfig: "Config_0.SJTU.Config" # 相机配置文件名称
   TestVideo: "SJTU.mp4" # 测试视频名称
   CameraParam: "camera0.SJTU.yaml" # 相机参数文件
